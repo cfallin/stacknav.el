@@ -104,4 +104,4 @@
     (define-key k "cc" 'stacknav-clear-cleared)
     k))
 
-(local-set-key "\M-s" stacknav-keymap)
+(define-key global-map "\M-s" stacknav-keymap)
